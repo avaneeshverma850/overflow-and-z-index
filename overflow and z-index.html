@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and Z-index</title>
+    <!--internal css-->
+    <style>
+        p{
+            height: 250px;
+            width: 250px;
+            background-color: aqua;
+            border: 1px solid black;
+            overflow: scroll;
+        }
+        .one{
+            height: 50px;
+            width: 50px;
+            background-color:green;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+        .two{
+            height: 50px;
+            width:50px ;
+            background-color: red;
+            position: absolute;
+            top: 1;
+            z-index: -2;
+
+        }
+
+    </style>
+</head>
+<body>
+<!--overflow-->
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo ab quas omnis consectetur laborum ipsum deserunt corrupti. Odio eligendi dolore doloribus excepturi accusamus asperiores, magnam inventore non maiores dolor dignissimos vero facilis quos consequuntur rerum. Laudantium, voluptas. Accusamus deserunt quis ab fuga rem quo in. Consectetur praesentium corporis eos assumenda consequuntur excepturi sunt nemo dignissimos labore? Sapiente fuga corporis, architecto quaerat accusamus cumque accusantium. Delectus quae molestias iure autem minima minus sed vitae necessitatibus sint pariatur itaque, at debitis error tempora praesentium sit similique porro reprehenderit quaerat recusandae, eligendi, molestiae aut veniam! Omnis earum aut dolore velit voluptas, hic labore itaque laborum, quisquam culpa placeat exercitationem quaerat! Quos magnam necessitatibus aut tempora quia aperiam asperiores, earum delectus quis excepturi doloremque incidunt impedit nostrum harum dolores voluptates, sequi, illo ut. Quas repellat possimus rem sit adipisci. Impedit veniam quaerat, esse consectetur sed obcaecati non laborum magni tenetur doloremque accusantium exercitationem delectus itaque fugit deserunt nemo error temporibus amet vero voluptates sit vel animi! Quaerat omnis neque autem tempore, culpa vero quas, enim non vel unde maiores? Sunt quam corrupti nam reiciendis aliquam, exercitationem placeat deleniti ipsum tempora labore expedita eaque quasi doloribus ad minima itaque assumenda distinctio qui ratione corporis dolor quisquam velit? Velit optio ducimus non numquam voluptas sunt nihil aperiam asperiores itaque quisquam officiis eligendi eveniet cumque facilis laborum quae facere, nisi adipisci. Accusantium unde id doloremque provident perspiciatis corporis eaque ad voluptatibus reprehenderit cupiditate, inventore cumque autem optio sed, ab quisquam officia esse iste saepe error ipsa! Nam quae, perspiciatis distinctio accusantium officia perferendis. Laboriosam, odit, deserunt ipsam illo iste enim quaerat, ea neque quibusdam eaque earum! Perferendis deserunt officiis consequuntur, quaerat, tempora doloribus rem repellendus reiciendis possimus quos voluptate omnis exercitationem rerum porro esse nobis odit eos voluptatem est animi! Quam nesciunt architecto perferendis voluptatibus sunt nihil laudantium aspernatur aliquid praesentium, laborum repellat, eos voluptate obcaecati dignissimos excepturi. Nisi incidunt voluptatem quos hic asperiores perspiciatis, commodi doloribus rem perferendis voluptate cupiditate corporis dignissimos eaque vitae vel nobis. Reiciendis, voluptas dignissimos. Veniam, nulla perferendis. Atque eaque sequi itaque, facilis voluptatibus cumque ipsa tempore voluptatum explicabo animi nesciunt velit perspiciatis delectus inventore quis omnis ut distinctio aut! Sequi quisquam est quibusdam, minus quam reprehenderit tempora harum iure amet cupiditate numquam molestiae in quasi. Iusto dolorum veniam repellendus nisi neque perspiciatis corporis, officiis asperiores non quis hic, alias voluptate. Illum necessitatibus praesentium sit natus eos vitae, est et itaque ea voluptate minima quo iure commodi amet consequatur expedita perferendis iste quia dignissimos eius tenetur repudiandae! Maxime, quaerat doloribus illo quidem nam labore repellat? Qui iure eos perferendis ipsa a. Vero nesciunt consectetur laudantium. Tempore nisi a minima pariatur neque officia, illo accusantium asperiores reiciendis deserunt quibusdam impedit vero et est dolores consectetur, rem fugiat excepturi. Consequuntur voluptatibus architecto omnis atque illum, quas officiis saepe et molestias quos fugiat, ad, deleniti nostrum rem! Libero ut corrupti porro, quidem doloribus quasi magnam perspiciatis! Soluta officiis delectus velit exercitationem quo, nesciunt dolorum dolorem ducimus! Quam, iste similique quasi possimus nobis eius blanditiis quia?</p>
+
+<!--Z-index-->
+<div class="one"></div>
+<div class="two"></div>
+    
+</body>
+</html>
